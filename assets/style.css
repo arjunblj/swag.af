@@ -1,0 +1,52 @@
+body{
+	background-image: url("images/back.jpg");
+	background-size: auto;
+}
+h1{
+	text-align: center;
+	font-family: Avenir, Wingdings, sans-serif;
+	font-size: 10em;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	letter-spacing: -10px;
+	font-weight: bold;
+	margin-top: 160px;
+	margin-bottom: -50px; 
+	background: -webkit-linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h2{
+	text-align: center;
+	font-family: Avenir, "Trebuchet MS", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+	margin-bottom: 3.5px;
+	color: #DEEFFF;
+	color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #EBD7D7;
+	margin-left: 7px;
+	margin-right: 7px;
+
+}
+
+a:hover{
+	color: #E0F5FF;
+}
+
+div.twitters{
+	position: absolute; 
+	bottom: 5px;
+	right: 6px;
+	text-align: center;
+}
+
+
+
