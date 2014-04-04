@@ -13,7 +13,7 @@ h1{
 	margin-top: 160px;
 	margin-bottom: -50px; 
 
-	background-color: #DDEEFF; /* fallback color */
+	color: #DDEEFF; /* fallback color */
 	background: -webkit-linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
