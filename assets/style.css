@@ -4,7 +4,7 @@ body{
 }
 h1{
 	text-align: center;
-	font-family: Avenir, Webdings, symbol;
+	font-family: Avenir, "Century Gothic";
 	font-size: 10em;
 	text-transform: uppercase;
 	text-rendering: optimizeLegibility;
@@ -12,9 +12,15 @@ h1{
 	font-weight: bold;
 	margin-top: 160px;
 	margin-bottom: -50px; 
+
+	background-color: #DDEEFF; /* fallback color */
 	background: -webkit-linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	background-image:    -moz-linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1)); 
+	background-image:     -ms-linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1)); 
+	background-image:      -o-linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1)); 
+	background-image:         linear-gradient(left,rgba(122, 163, 204, 1),rgba(255, 255, 255, 1));
 }
 
 h2{
